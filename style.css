@@ -1,0 +1,77 @@
+body{
+ background: #222426;
+ color: honeydew;
+}
+div#start{
+ margin-top: 40vh;
+ text-align: center;
+}
+#GameBord{
+ background: black;
+ height: 64vh;
+ width: 55vw;
+ margin: auto;
+}
+
+.player1{
+ position: absolute;
+ left: 50%;
+ bottom: 36%;
+ height: 10px;
+ width: 40px;
+ background: rgb(252, 2, 2); 
+}
+.player2{
+  position: absolute;
+  left: 50%;
+  height: 10px;
+  width: 40px;
+  background: rgb(46, 1, 250);
+ }
+.dactive{
+ display: none;
+}
+.p1{color: rgb(252, 2, 2);}
+.p2{color: rgb(46, 1, 250);}
+#player1Status{ padding-top: 2rem;}
+#player2Status{ padding-top: 2rem;}
+#WonStatus{ padding-top: 2rem;}
+
+/* bullet animation */
+.bullet {
+ width: 5px;
+ height: 10px;
+ background: rgb(252, 2, 2);
+ position: absolute;
+ bottom: 0;
+ left: 0;
+ right: 0;
+ margin: auto;
+ animation: move 0.3s linear infinite;
+}
+@keyframes move {
+ 0% {
+   bottom: 37%;
+ }
+ 100% {
+   bottom: 97%;
+ }
+}
+.bullet1 {
+ width: 5px;
+ height: 10px;
+ background: rgb(46, 1, 250);
+ position: absolute;
+ top: 3;
+ left: 52%;
+ margin: auto;
+ animation: movea 0.3s reverse infinite;
+}
+@keyframes movea {
+ 0% {
+   top: 63%;
+ }
+ 100% {
+   top: 3%;
+ }
+}
