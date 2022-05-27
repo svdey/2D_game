@@ -1,18 +1,57 @@
-# 2D-Two-Player-game-using-java
 
-<h1>Start page</h1>
-<p>To play the game press Start</p>
-<img src="snap/start.png">
+# 2D Two Player Game
 
-<h1>Game page</h1>
-<p>Player One is Red</p>
-<p>Player One Fire button : s or S</p>
-<br>
-<p>Player Two is Red</p>
-<p>Player Two Fire button : k or K</p>
-<img src="snap/gameBord.png">
+### _This project is a Two player game ._
 
-<img src="snap/1tomeWon.png">
 
-<p>Who won 3 games first that player Won the match</p>
-<img src="snap/2Won.png">
+
+## CodePen Link
+
+_check the App ->_  [CodePen](https://codepen.io/svdey/pen/KKygWWY)
+## Technology used
+
+- HTML
+- CSS
+- JavaScript
+
+
+## Screenshots
+
+![Start page](https://raw.githubusercontent.com/svdey/2D_game/main/snap/start.png)
+
+
+![game Page](https://raw.githubusercontent.com/svdey/2D_game/main/snap/gameBord.png)
+
+
+![Won page](https://raw.githubusercontent.com/svdey/2D_game/main/snap/2Won.png)
+
+## Run Locally
+
+Clone the project
+
+```bash
+  git clone https://github.com/svdey/2D_game.git
+```
+
+Go to the project directory
+
+```bash
+  cd 2D_game
+```
+
+
+Run the Html
+
+```bash
+  Open index.html on your browser
+```
+
+
+## Authors
+
+- [@svdey](https://github.com/svdey)
+
+
+## 🚀 About Me
+I'm a full stack developer...
+
